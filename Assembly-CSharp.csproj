@@ -62,26 +62,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Attack.cs" />
-    <Compile Include="Assets\ColliderArea.cs" />
-    <Compile Include="Assets\Enemy.cs" />
-    <Compile Include="Assets\EngineController.cs" />
-    <Compile Include="Assets\GridManager.cs" />
-    <Compile Include="Assets\IJump.cs" />
-    <Compile Include="Assets\IMove.cs" />
-    <Compile Include="Assets\IPlataform.cs" />
-    <Compile Include="Assets\InputController.cs" />
-    <Compile Include="Assets\InteractPlataform.cs" />
-    <Compile Include="Assets\JumpController.cs" />
-    <Compile Include="Assets\MoveController.cs" />
-    <Compile Include="Assets\Pathfinder.cs" />
-    <Compile Include="Assets\Plataform.cs" />
-    <Compile Include="Assets\Scripts\Pool\ObjectPool.cs" />
-    <Compile Include="Assets\Scripts\Pool\ObjectPoolContainer.cs" />
-    <Compile Include="Assets\Scripts\Pool\PoolManager.cs" />
-    <Compile Include="Assets\Scripts\Pool\Singleton.cs" />
-    <Compile Include="Assets\Spawner.cs" />
-    <Compile Include="Assets\Stats.cs" />
+    <Compile Include="Assets\Scripts\External Assets\Pool\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\External Assets\Pool\ObjectPoolContainer.cs" />
+    <Compile Include="Assets\Scripts\External Assets\Pool\PoolManager.cs" />
+    <Compile Include="Assets\Scripts\External Assets\Pool\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Pathfinder\ColliderArea.cs" />
+    <Compile Include="Assets\Scripts\Pathfinder\GridManager.cs" />
+    <Compile Include="Assets\Scripts\Pathfinder\Pathfinder.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Actions\Attack.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Actions\EngineController.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Actions\InputController.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Actions\JumpController.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Actions\MoveController.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Elements\InteractPlataform.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Elements\Plataform.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Elements\Spawner.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Interfaces\IJump.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Interfaces\IMove.cs" />
+    <Compile Include="Assets\Scripts\Plataform\Interfaces\IPlataform.cs" />
+    <Compile Include="Assets\Scripts\Plataform\RPG Info\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Plataform\RPG Info\Stats.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Joziel Silva/Documents/_PROGRAMACAO/FACULDADE/Jumper Plataform/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
