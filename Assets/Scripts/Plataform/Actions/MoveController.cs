@@ -32,9 +32,13 @@ public class MoveController : MonoBehaviour, IMove
             else if (rigidbody2d.velocity.x < 0)
             {
                 transform.eulerAngles = new Vector3(transform.eulerAngles.x, 180, transform.eulerAngles.z);
-                direction = false; 
+                direction = false;
             }
 
+        }
+        else
+        {
+            rigidbody2d.velocity = new Vector2(0, rigidbody2d.velocity.y);
         }
     }
 

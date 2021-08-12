@@ -6,7 +6,7 @@ public class InputController : MonoBehaviour, Iinput
 {
     public Vector2 DirectionsInput()
     {
-        return new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        return new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 }
 
